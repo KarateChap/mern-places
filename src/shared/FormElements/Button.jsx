@@ -43,6 +43,7 @@ const Button = (props) => {
       </Link>
     );
   }
+  
   return (
     <button
       className={`button button--${size || "default"} ${
