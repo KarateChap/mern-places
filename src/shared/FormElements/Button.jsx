@@ -17,7 +17,6 @@ const Button = (props) => {
     disabled,
   } = props;
 
-  
   if (href) {
     return (
       <a
@@ -43,7 +42,7 @@ const Button = (props) => {
       </Link>
     );
   }
-  
+
   return (
     <button
       className={`button button--${size || "default"} ${
